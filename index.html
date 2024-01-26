@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNSC IT Club - Social Media Lead Application</title>
+</head>
+<body>
+
+    <h2>SNSC IT Club - Social Media Lead Application</h2>
+
+    <form action="submit_application.php" method="post">
+        <!-- Personal Information -->
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required><br>
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required><br>
+
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <!-- Educational Details -->
+        <label for="education">Educational Details:</label>
+        <textarea id="education" name="education" rows="4" required></textarea><br>
+
+        <!-- Experience in Leading Roles -->
+        <label for="experience">Experience in Leading Roles:</label>
+        <textarea id="experience" name="experience" rows="4" required></textarea><br>
+
+        <!-- Address -->
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br>
+
+        <!-- Social Media Lead Specific Questions -->
+        <label for="socialMediaExperience">Social Media Experience:</label>
+        <textarea id="socialMediaExperience" name="socialMediaExperience" rows="4" required></textarea><br>
+
+        <label for="ideas">Ideas for Social Media Strategy:</label>
+        <textarea id="ideas" name="ideas" rows="4" required></textarea><br>
+
+        <!-- Additional Queries -->
+        <label for="additionalQueries">Any Additional Queries:</label>
+        <textarea id="additionalQueries" name="additionalQueries" rows="4"></textarea><br>
+        
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
